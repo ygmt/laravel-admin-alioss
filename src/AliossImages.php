@@ -31,7 +31,7 @@ class AliossImages extends MultipleFile
         $this->options['deleteExtraData']['_token'] = csrf_token();
         $this->options['deleteUrl'] = '/admin/alioss/delete';
         $this->options['uploadUrl'] = '/admin/alioss/upload';
-        $this->options['allowedFileTypes'] = ['image'];
+        $this->options['allowedFileTypes'] = ['image', 'video'];
     }
 
     /**
